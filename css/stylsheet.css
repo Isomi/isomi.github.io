@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Courier";
+}
+
+.container {
+	padding:30px 0px;
+	max-width:1000px;
+}
+
+.header {
+	background-color: #232625;
+}
+
+.header img {
+	height:150px;
+}
+
+.main {
+	background-color: #D2D9B8;
+	height: 1200px;
+}
+
+.main .container {
+	padding: 30px 0px 40px;
+}
+
+.main img {
+	height:320px;
+	margin: 10px;
+	box-shadow: 1px 1px 5px #888888;
+	
+}
+
+.main tumbnail{
+	margin: 0px;
+	padding: 0px;
+}
+.supporting {
+	text-align: center;
+	background-color: #232625;
+	color: #fff;
+}
+
+.supporting a {
+	color: #FFFFFF;
+	background-color: #2A2E29;
+	border: solid 1px #B3D929;
+	border-radius: 10px;
+	font-size: 36px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	box-shadow: 1px 1px 5px #000;
+	padding: 15px 30px;
+}
+
+.supporting a:hover {
+	background-color: #B3D929;
+	border: 1px solid #B3D929;
+}
+
+.supporting a span {
+	font-size: 60px;
+}
+
+
+.footer {
+	font-family: "courier";
+	background-color: #000000;
+	color: #B3D929;
+	text-align:center;
+}
+
+.footer li {
+	display:inline;
+}
+
+.footer img {
+	padding-right: 20px;
+	height:20px;
+}
